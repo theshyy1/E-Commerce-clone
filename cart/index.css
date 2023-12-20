@@ -62,6 +62,12 @@
     padding: 16px 56px;
 }
 
+.btn-options1 > a {
+    display: block;
+    color: var(--text-black);
+    text-decoration: none;
+}
+
 .btn-options2 {
     float: right;
     padding: 16px 52px;

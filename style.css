@@ -444,6 +444,9 @@
     margin: 60px 0;
     flex-wrap: wrap;
 }
+.main__products-item {
+    margin-bottom: 20px;
+}
 
 .main__products-item:hover {
     transform: translateY(-5px);
@@ -463,6 +466,7 @@
     margin-bottom: 16px;
     box-shadow: 2px 2px 2px var(--text-gray);
 }
+
 
 .products__img > img {
     border-radius: 30%;
@@ -529,6 +533,11 @@
     text-align: center;
     line-height: 41px;
     font-size: 12px;
+    display: none;
+}
+
+.products__img:hover > .addToCart {
+    display: block;
 }
 
 .products__img > .addToCart > i {
