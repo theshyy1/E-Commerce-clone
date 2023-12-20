@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>E Commerce Website</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Top-header -->
+      <header class="top-header">
+        <div class="container">
+          <div class="top-header__sales">
+            <span></span>
+            <div class="top-header__sales-content">
+              <p>
+                Summer Sale For All Swim Suits And Free Express Delivery - OFF
+                50%!
+                <span>ShopNow</span>
+              </p>
+            </div>
+            <div class="top-header__sales-right">
+              <p>English <i class="fa-solid fa-chevron-down"></i></p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Header -->
+      <section class="header">
+        <div class="container">
+          <nav class="header__navbar">
+            <div class="header__navbar-logo">
+              <h1>Exclusive</h1>
+            </div>
+            <ul class="header__navbar-menu">
+              <li><a href="/">Home</a></li>
+              <li><a href="./contact/index.html">Contact</a></li>
+              <li><a href="./about/index.html">About</a></li>
+              <li><a href="./auth/signup.html">Sign Up</a></li>
+            </ul>
+            <div class="header__navbar-right">
+              <div class="header__navbar-form">
+                <input
+                  type="text"
+                  placeholder="What are you looking for?"
+                  class="header__navbar-input"
+                />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="header__navbar-icons">
+                <div class="user__heart">
+                  <i class="fa-solid fa-heart"></i>
+                  <span>4</span>
+                </div>
+                <div class="user__cart">
+                  <a href="./cart/index.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                  <span>2</span>
+                  <a href=""> </a>
+                </div>
+                <div class="user__dropdown">
+                  <i class="fa-solid fa-user"></i>
+                  <ul class="dropdown-content">
+                    <li>
+                      <a href=""
+                        ><i class="fa-regular fa-user"></i> Manage My Account</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><i class="fa-solid fa-bag-shopping"></i> My Order</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><i class="fa-solid fa-ban"></i> My Cancellations</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><i class="fa-regular fa-star"></i> My Reviews</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><i class="fa-solid fa-right-from-bracket"></i>
+                        Logout</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Top-Main -->
+      <div class="container">
+        <section class="top-main">
+          <aside class="">
+            <ul class="top-main__categories">
+              <li><a href="">Woman’s Fashion</a></li>
+              <li><a href="">Men’s Fashion</a></li>
+              <li><a href="">Electronics</a></li>
+              <li><a href="">Home & Lifestyle</a></li>
+              <li><a href="">Medicine</a></li>
+              <li><a href="">Sports & Outdoor</a></li>
+              <li><a href="">Baby’s & Toys</a></li>
+              <li><a href="">Groceries & Pets</a></li>
+              <li><a href="">Health & Beauty</a></li>
+            </ul>
+          </aside>
+          <div class="">
+            <img src="https://picsum.photos/892/344" alt="" />
+          </div>
+        </section>
+      </div>
+
+      <!-- Flash sales -->
+      <div class="container">
+        <div class="main__products">
+          <div class="main__common-part">
+            <div class="common__head">
+              <div class="common__head-left">
+                <div class="common__head-left">
+                  <span></span>
+                  <p>Today's</p>
+                </div>
+              </div>
+            </div>
+            <div class="common__body">
+              <h3>Flash Sales</h3>
+              <div class="common__body-btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__products-list">
+            <div class="main__products-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <span class="products__img-saleoff">-40%</span>
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>HAVIT HV-G92 Gamepad</h3>
+                <p>$120 <span>$160</span></p>
+                <ul class="products__body-star">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <span>(88)</span>
+                </ul>
+              </div>
+            </div>
+            <!-- End a item -->
+            <div class="main__products-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <span class="products__img-saleoff">-35%</span>
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+                <span class="addToCart">Add To Cart</span>
+              </div>
+              <div class="products__body">
+                <h3>AK-900 Wired Keyboard</h3>
+                <p>$960 <span>$1160</span></p>
+                <ul class="products__body-star">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <span>(75)</span>
+                </ul>
+              </div>
+            </div>
+            <!-- End a item -->
+            <div class="main__products-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <span class="products__img-saleoff">-30%</span>
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>IPS LCD Gaming Monitor</h3>
+                <p>$370 <span>$409</span></p>
+                <ul class="products__body-star">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <span>(99)</span>
+                </ul>
+              </div>
+            </div>
+            <!-- End a item -->
+            <div class="main__products-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <span class="products__img-saleoff">-25%</span>
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>S-Series Comfort Chair</h3>
+                <p>$375 <span>$400</span></p>
+                <ul class="products__body-star">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <span>(99)</span>
+                </ul>
+              </div>
+            </div>
+            <!-- End a item -->
+          </div>
+          <button class="btn-primary main__products-button">
+            <p>View All Products</p>
+          </button>
+        </div>
+      </div>
+
+      <!-- Category -->
+      <div class="container">
+        <div class="main__category">
+          <div class="main__common-part">
+            <div class="common__head">
+              <div class="common__head-left">
+                <span></span>
+                <p>Categories</p>
+              </div>
+            </div>
+            <div class="common__body">
+              <h3>Browse By Category</h3>
+              <div class="common__body-btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__category-list">
+            <div class="main__category-item">
+              <i class="fa-solid fa-mobile"></i>
+              <p>Phones</p>
+            </div>
+            <!-- End a category -->
+            <div class="main__category-item">
+              <i class="fa-solid fa-computer"></i>
+              <p>Computers</p>
+            </div>
+            <!-- End a category -->
+            <div class="main__category-item">
+              <i class="fa-regular fa-clock"></i>
+              <p>SmartWatch</p>
+            </div>
+            <!-- End a category -->
+            <div class="main__category-item">
+              <i class="fa-solid fa-camera"></i>
+              <p>Camera</p>
+            </div>
+            <!-- End a category -->
+            <div class="main__category-item">
+              <i class="fa-solid fa-headphones"></i>
+              <p>HeadPhones</p>
+            </div>
+            <!-- End a category -->
+            <div class="main__category-item">
+              <i class="fa-solid fa-gamepad"></i>
+              <p>Gaming</p>
+            </div>
+            <!-- End a category -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Best selling -->
+      <div class="container">
+        <div class="main__bestselling">
+          <div class="main__common-part">
+            <div class="common__head">
+              <div class="common__head-left">
+                <span></span>
+                <p>This Month</p>
+              </div>
+              <button class="btn-primary">View All</button>
+            </div>
+            <div class="common__body">
+              <h3>Best Selling Products</h3>
+            </div>
+          </div>
+          <div class="main__bestselling-list">
+            <div class="main__products-item main__bestselling-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+                <span class="addToCart">Add To Cart</span>
+              </div>
+              <div class="products__body">
+                <h3>The north coat</h3>
+                <p>$260 <span>$360</span></p>
+                <ul class="products__body-star">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <span>(65)</span>
+                </ul>
+              </div>
+            </div>
+            <!-- End an item -->
+            <div class="main__products-item main__bestselling-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>RGB liquid CPU Cooler</h3>
+                <p>$160 <span>$170</span></p>
+                <ul class="products__body-star">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <span>(88)</span>
+                </ul>
+              </div>
+            </div>
+            <!-- End an item -->
+            <div class="main__products-item main__bestselling-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>Gucci duffle bag</h3>
+                <p>$960 <span>$1160</span></p>
+                <ul class="products__body-star">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <span>(65)</span>
+                </ul>
+              </div>
+            </div>
+            <!-- End an item -->
+            <div class="main__products-item main__bestselling-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>Small BookSelf</h3>
+                <p>$360 <span></span></p>
+                <ul class="products__body-star">
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <span>(90)</span>
+                </ul>
+              </div>
+            </div>
+            <!-- End an item -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner -->
+      <div class="container">
+        <div class="main__banner">
+          <div class="main__banner-body">
+            <p>Categories</p>
+            <h3>Enhance Your Music Experience</h3>
+            <ul class="main__banner-times">
+              <li>23 <span>Hours</span></li>
+              <li>05 <span>Days</span></li>
+              <li>59 <span>Minutes</span></li>
+              <li>35 <span>Seconds</span></li>
+            </ul>
+            <button class="main__banner-btn"><p>Buy Now!</p></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our products -->
+      <div class="container">
+        <div class="main__ourProducts">
+          <div class="main__common-part">
+            <div class="common__head">
+              <div class="common__head-left">
+                <span></span>
+                <p>Our Products</p>
+              </div>
+            </div>
+            <div class="common__body">
+              <h3>Explore Our Products</h3>
+              <div class="common__body-btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__ourProducts-list">
+            <div class="main__products-item main__ourProducts-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>Breed Dry Dog Food</h3>
+                <div class="products__body-mix">
+                  <p>$100</p>
+                  <ul class="products__body-star">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <span>(35)</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End an item -->
+
+            <div class="main__products-item main__ourProducts-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>The north coat</h3>
+                <div class="products__body-mix">
+                  <p>$260</p>
+                  <ul class="products__body-star">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <span>(65)</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End an item -->
+            <div class="main__products-item main__ourProducts-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>CANON EOS DSLR Camera</h3>
+                <div class="products__body-mix">
+                  <p>$360</p>
+                  <ul class="products__body-star">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <span>(95)</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- End an item -->
+            <div class="main__products-item main__ourProducts-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>ASUS FHD Gaming Laptop</h3>
+                <div class="products__body-mix">
+                  <p>$700</p>
+                  <ul class="products__body-star">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <span>(325)</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- End an item -->
+            <div class="main__products-item main__ourProducts-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>Curology Product Set</h3>
+                <div class="products__body-mix">
+                  <p>$500</p>
+                  <ul class="products__body-star">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <span>(145)</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End an item -->
+            <div class="main__products-item main__ourProducts-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>Kids Electric Car</h3>
+                <div class="products__body-mix">
+                  <p>$960</p>
+                  <ul class="products__body-star">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <span>(65)</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End an item -->
+            <div class="main__products-item main__ourProducts-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>Jr. Zoom Soccer Cleats</h3>
+                <div class="products__body-mix">
+                  <p>$660</p>
+                  <ul class="products__body-star">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <span>(55)</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End an item -->
+            <div class="main__products-item main__ourProducts-item">
+              <div class="products__img">
+                <img src="https://picsum.photos/180/180" alt="" />
+                <div class="products__body-care">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="products__body-show">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+              </div>
+              <div class="products__body">
+                <h3>Quilted Satin Jacket</h3>
+                <div class="products__body-mix">
+                  <p>$660</p>
+                  <ul class="products__body-star">
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <li><i class="fa-regular fa-star"></i></li>
+                    <span>(55)</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- End an item -->
+          </div>
+          <button class="btn-primary main__products-button">
+            <p>View All Products</p>
+          </button>
+        </div>
+      </div>
+
+      <!-- New Arrival -->
+      <div class="container">
+        <div class="main__arrival">
+          <div class="main__common-part">
+            <div class="common__head">
+              <div class="common__head-left">
+                <span></span>
+                <p>Featured</p>
+              </div>
+            </div>
+            <div class="common__body">
+              <h3>New Arrival</h3>
+              <div class="common__body-btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="main__arrival-collections">
+            <div class="main__arrival-collections-left">
+              <img src="https://picsum.photos/570/600" alt="" />
+              <div class="arrival__common-features">
+                <h4>PlayStation 5</h4>
+                <p>Black and White version of the PS5 coming out on sale.</p>
+                <span>Shop Now</span>
+              </div>
+            </div>
+            <div class="main__arrival-collections-right">
+              <div class="right-1">
+                <img src="https://picsum.photos/570/284" alt="" />
+                <div class="arrival__common-features">
+                  <h4>Women’s Collections</h4>
+                  <p>Featured woman collections that give you another vibe.</p>
+                  <span>Shop Now</span>
+                </div>
+              </div>
+              <div class="sub-collections">
+                <div class="sub-collection1">
+                  <img src="https://picsum.photos/270/284" alt="" />
+                  <div class="arrival__common-features">
+                    <h4>Speakers</h4>
+                    <p>Amazon wireless speakers</p>
+                    <span>Shop Now</span>
+                  </div>
+                </div>
+                <div class="sub-collection2">
+                  <img src="https://picsum.photos/270/284" alt="" />
+                  <div class="arrival__common-features">
+                    <h4>Perfume</h4>
+                    <p>GUCCI INTENSE OUD EDP</p>
+                    <span>Shop Now</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__arrival-deliver">
+            <div class="main__arrival-deliver-item">
+              <p>
+                <i class="fa-solid fa-truck"></i>
+              </p>
+              <h3>FREE AND FAST DELIVERY</h3>
+              <span>Free delivery for all orders over $140</span>
+            </div>
+            <!-- End an item deliver -->
+            <div class="main__arrival-deliver-item">
+              <p>
+                <i class="fa-solid fa-headset"></i>
+              </p>
+              <h3>24/7 CUSTOMER SERVICE</h3>
+              <span>Friendly 24/7 customer support</span>
+            </div>
+            <!-- End an item deliver -->
+            <div class="main__arrival-deliver-item">
+              <p>
+                <i class="fa-solid fa-shield-halved"></i>
+              </p>
+              <h3>MONEY BACK GUARANTEE</h3>
+              <span>We reurn money within 30 days</span>
+            </div>
+            <!-- End an item deliver -->
+            <div class="common__body-btn go-up-btn">
+              <i class="fa-solid fa-arrow-up"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-menu">
+            <div class="footer-menu__item">
+              <h3>Exclusive</h3>
+              <ul>
+                <li><a href="">Subscribe</a></li>
+                <li><a href="">Get 10% off your first order</a></li>
+                <li>
+                  <form class="footer__form">
+                    <input
+                      type="text"
+                      placeholder="Enter address"
+                      class="footer__form-input"
+                    />
+                    <i class="fa-regular fa-paper-plane"></i>
+                  </form>
+                </li>
+              </ul>
+            </div>
+            <!-- End col items -->
+            <div class="footer-menu__item">
+              <h3>Support</h3>
+              <ul>
+                <li>
+                  <a href="">111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</a>
+                </li>
+                <li><a href="">exclusive@gmail.com</a></li>
+                <li><a href="">+88015-88888-9999</a></li>
+              </ul>
+            </div>
+            <!-- End col items -->
+            <div class="footer-menu__item">
+              <h3>Account</h3>
+              <ul>
+                <li><a href="">My Account</a></li>
+                <li><a href="">Login / Register</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Wishlist</a></li>
+                <li><a href="">Shop</a></li>
+              </ul>
+            </div>
+            <!-- End col items -->
+            <div class="footer-menu__item">
+              <h3>Quick Link</h3>
+              <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms Of Use</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+            <!-- End col items -->
+            <div class="footer-menu__item">
+              <h3>Download App</h3>
+              <ul>
+                <li><a href="">Save $3 with App New User Only</a></li>
+                <li><a href="">Get 10% off your first order</a></li>
+                <li>
+                  <div class="footer__contact">
+                    <img src="./assets/Qrcode 1.png" alt="" />
+                    <div class="footer__contact-extra">
+                      <img
+                        src="./assets/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"
+                        alt=""
+                      />
+                      <img src="./assets/download-appstore.png" alt="" />
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <ul class="icons-container">
+                    <li>
+                      <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- End col items -->
+          </div>
+        </div>
+        <p class="footer__copyright">
+          @ Copyright Rimel 2022. All right reserved
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

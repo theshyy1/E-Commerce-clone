@@ -1,0 +1,133 @@
+
+:root {
+    --text-black: #000;
+    --text-white: #fff;
+    --bg-color: #DB4444;
+    --text-gray: #D9D9D9;
+    --text-green: #00FF66;
+    --text-grey: #7D8184;
+}
+
+.main__common-direction {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--text-gray);
+    margin: 80px 0;
+}
+
+/* ====== Account=== */
+
+.account__main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 140px;
+}
+
+.main__common-direction > p > .user-active {
+    color: var(--bg-color);
+}
+
+.account__info {
+    width: 30%;
+}
+
+.account__info-item > h3{
+    font-size: 16px;
+}
+.account__info-item > ul {
+    list-style: none;
+    padding-left: 32px;
+    margin: 16px 0;
+}
+
+.account__info-item > ul > li {
+    margin: 8px 0;
+}
+
+.account__info-item > ul > li > a {
+    display: block;
+    color: var(--text-grey);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px 0;
+}
+
+.account__info-item > ul > li > a:hover {
+    text-decoration: underline;
+}
+.account__info-item > ul > li > .active {
+    color: var(--bg-color);
+}
+
+/* Form account */
+.account__form {
+    box-shadow: 0px 0px 4px 4px var(--text-gray);
+    width: 70%;
+}
+
+.form__body {
+    margin: 40px 80px;
+}
+
+.form__body::after {
+    clear: both;
+    display: block;
+}
+
+.form__body > h3 {
+    font-size: 20px;
+    color: var(--bg-color);
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+
+.form-item > p{
+    margin-bottom: 4px;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.form-item > input[type="text"]{
+    width: 300px;
+    padding: 12px 16px;
+    background-color: var(--text-gray);
+    color: var(--text-black);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin-bottom: 16px;
+}
+
+.form-password > p {
+    margin-bottom: 16px;
+}
+
+.form-password > input[type="text"] {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: var(--text-gray);
+    color: var(--text-black);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin-bottom: 16px;
+}
+
+.form-btns {
+    float: right;
+    margin: 40px 0;
+}
+
+.form-btns > button {
+    width: 234px;
+    height: 56px;
+    margin-right: 16px;
+}

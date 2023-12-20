@@ -1,0 +1,113 @@
+:root {
+    --text-black: #000;
+    --text-white: #fff;
+    --bg-color: #DB4444;
+    --text-gray: #F2F2F2;
+    --text-green: #00FF66;
+    --text-grey: #7D8184;
+}
+
+/* ----Content–-- */
+.contact__main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 140px;
+}
+
+.contact__info {
+    width: 340px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 5px 5px var(--text-gray);
+}
+
+.contact__form {
+    width: calc(100% - 300px);
+    box-shadow: 0px 0px 5px 5px var(--text-gray);
+}
+
+/* Contact Info */
+.contact__info-1 {
+    margin: 40px 35px;
+    border-bottom: 1px solid var(--text-black);
+}
+.contact__info-head {
+    display: flex;
+    align-items: center;
+}
+.contact__info-head > h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact__info-1 > p {
+    font-size: 14px;
+    margin: 24px 0 16px 0;
+} 
+.contact__info-1 > span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 32px;
+} 
+
+.contact__info-head > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    margin-right: 16px;
+}
+
+.contact__info-head > p > i {
+    font-size: 22px;
+    color: var(--text-white);
+}
+
+/* Contact form */
+.contact__form-body {
+    margin: 40px 32px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.input-container > input[type="text"] {
+    background: var(--text-gray);   
+    padding: 12px 16px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 240px;
+    font-size: 16px;
+}
+
+.contact__form-body > textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    background-color: var(--text-gray);
+    color: var(--text-black);
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.contact__form-body > .btn-submit {
+    width: 223px;
+    height: 56px;
+    line-height: 56px;
+    margin-top: 32px;
+    float: right;
+}
+.contact__form::after {
+    content: "";
+    clear: both;
+    display: block;
+}

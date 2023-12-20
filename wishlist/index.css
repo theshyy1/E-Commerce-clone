@@ -1,0 +1,17 @@
+
+
+.products__body-show__wishlist {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    background-color: var(--text-white);
+    border-radius: 50%;
+    line-height: 34px;
+    text-align: center;
+}
+
+.products__body-show_.products__body-show__wishlist {
+    opacity: .3;
+}

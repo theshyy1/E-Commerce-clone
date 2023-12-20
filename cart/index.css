@@ -1,0 +1,129 @@
+
+:root {
+    --text-black: #000;
+    --text-white: #fff;
+    --bg-color: #DB4444;
+    --text-gray: #F2F2F2;
+    --text-green: #00FF66;
+    --text-grey: #7D8184;
+}
+
+.main__cart-heading {
+    border: 1px solid var(--text-gray);
+    box-shadow: 0px 0px 5px 5px var(--text-gray);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.main__cart-item {
+    border: 1px solid var(--text-gray);
+    box-shadow: 0px 0px 5px 5px var(--text-gray);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 24px 0;
+    margin: 40px 0;
+    list-style: none;
+}
+
+.item__change-quantity {
+    border: 1px solid var(--text-gray);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    padding: 6px 8px;
+}
+
+.item__change-quantity > p {
+    margin-right: 8px;
+}
+
+.item__change-quantity > .btn-icon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+/* Button Options */
+.btn-options1 {
+    float: left;
+    padding: 16px 56px;
+}
+
+.btn-options2 {
+    float: right;
+    padding: 16px 52px;
+}
+
+.main__btn-options::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Checkout part */
+.main__cart-checkout {
+    margin-top: 80px;
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.checkout-code > input {
+    width: 300px;
+    font-size: 14px;
+    color: var(--text-black);
+    padding: 16px 20px;
+    border: 1px solid var(--text-grey);
+    border-radius: 4px;
+}
+
+.checkout-code > button {
+    width: 210px;
+    padding: 17px 0;
+    margin-left: 16px;
+}
+
+/* Checkout card */
+.checkout__card {
+    width: 470px;
+    border: 1px solid var(--text-grey);
+    border-radius: 4px;
+}
+
+.checkout__card-body {
+    margin: 32px 24px;
+}
+
+.checkout__card-body > h3 {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.checkout__card-list > p {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--text-grey);
+    padding: 4px 0;
+    margin-bottom: 16px;
+}
+
+.checkout__card-body > button {
+    display: block;
+    width: 260px;
+    margin: 0 auto;
+    padding: 17px 0;
+}

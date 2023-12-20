@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>E Commerce Website</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Top-header -->
+      <header class="top-header">
+        <div class="container">
+          <div class="top-header__sales">
+            <span></span>
+            <div class="top-header__sales-content">
+              <p>
+                Summer Sale For All Swim Suits And Free Express Delivery - OFF
+                50%!
+                <span>ShopNow</span>
+              </p>
+            </div>
+            <div class="top-header__sales-right">
+              <p>English <i class="fa-solid fa-chevron-down"></i></p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Header -->
+      <section class="header">
+        <div class="container">
+          <nav class="header__navbar">
+            <div class="header__navbar-logo">
+              <h1>Exclusive</h1>
+            </div>
+            <ul class="header__navbar-menu">
+              <li><a href="/">Home</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="../about/index.html">About</a></li>
+              <li><a href="../auth/signup.html">Sign Up</a></li>
+            </ul>
+            <div class="header__navbar-right">
+              <div class="header__navbar-form">
+                <input
+                  type="text"
+                  placeholder="What are you looking for?"
+                  class="header__navbar-input"
+                />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="header__navbar-icons">
+                <div class="user__heart">
+                  <i class="fa-solid fa-heart"></i>
+                  <span>4</span>
+                </div>
+                <div class="user__cart">
+                  <a href="../cart/index.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                  <span>2</span>
+                </div>
+                <div class="user__dropdown">
+                  <i class="fa-solid fa-user"></i>
+                  <ul class="dropdown-content">
+                    <li>
+                      <a href=""
+                        ><i class="fa-regular fa-user"></i> Manage My Account</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><i class="fa-solid fa-bag-shopping"></i> My Order</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><i class="fa-solid fa-ban"></i> My Cancellations</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><i class="fa-regular fa-star"></i> My Reviews</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><i class="fa-solid fa-right-from-bracket"></i>
+                        Logout</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Not Found -->
+      <div class="container">
+        <div class="main__common-direction">
+          <p>Home <span>/ My Account</span></p>
+          <p>Welcome! <span class="user-active">Md Rimel</span></p>
+        </div>
+        <div class="account__main">
+          <aside class="account__info">
+            <div class="account__info-item">
+              <h3>Manage My Account</h3>
+              <ul>
+                <li><a href="" class="active">My Profile</a></li>
+                <li><a href="">Address Book</a></li>
+                <li><a href="">My Payment Options</a></li>
+              </ul>
+            </div>
+            <div class="account__info-item">
+              <h3>My Orders</h3>
+              <ul>
+                <li><a href="">My Returns</a></li>
+                <li><a href="">My Cancellations</a></li>
+              </ul>
+            </div>
+            <div class="account__info-item">
+              <h3>My WishList</h3>
+            </div>
+          </aside>
+          <main class="account__form">
+            <div class="form__body">
+              <h3>Edit Your Profile</h3>
+              <div class="form-container">
+                <div class="form-item">
+                  <p>First Name</p>
+                  <input type="text" placeholder="Md" />
+                </div>
+                <div class="form-item">
+                  <p>Last Name</p>
+                  <input type="text" placeholder="Hoang" />
+                </div>
+                <div class="form-item">
+                  <p>Email</p>
+                  <input type="text" placeholder="hoangtrung@gmail.com" />
+                </div>
+                <div class="form-item">
+                  <p>Address</p>
+                  <input type="text" placeholder="Ha Noi, Viet Nam" />
+                </div>
+              </div>
+              <div class="form-password">
+                <p>Password</p>
+                <input type="text" placeholder="Current Passwod" />
+                <input type="text" placeholder="New Passwod" />
+                <input type="text" placeholder="Confirm Passwod" />
+              </div>
+              <div class="form-btns">
+                <button class="btn-secondary">Cancel</button>
+                <button class="btn-primary">Save Changes</button>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-menu">
+            <div class="footer-menu__item">
+              <h3>Exclusive</h3>
+              <ul>
+                <li><a href="">Subscribe</a></li>
+                <li><a href="">Get 10% off your first order</a></li>
+                <li>
+                  <form class="footer__form">
+                    <input
+                      type="text"
+                      placeholder="Enter address"
+                      class="footer__form-input"
+                    /><i class="fa-regular fa-paper-plane"></i>
+                  </form>
+                </li>
+              </ul>
+            </div>
+            <!-- End col items -->
+            <div class="footer-menu__item">
+              <h3>Support</h3>
+              <ul>
+                <li>
+                  <a href="">111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</a>
+                </li>
+                <li><a href="">exclusive@gmail.com</a></li>
+                <li><a href="">+88015-88888-9999</a></li>
+              </ul>
+            </div>
+            <!-- End col items -->
+            <div class="footer-menu__item">
+              <h3>Account</h3>
+              <ul>
+                <li><a href="">My Account</a></li>
+                <li><a href="">Login / Register</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Wishlist</a></li>
+                <li><a href="">Shop</a></li>
+              </ul>
+            </div>
+            <!-- End col items -->
+            <div class="footer-menu__item">
+              <h3>Quick Link</h3>
+              <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms Of Use</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+            <!-- End col items -->
+            <div class="footer-menu__item">
+              <h3>Download App</h3>
+              <ul>
+                <li><a href="">Save $3 with App New User Only</a></li>
+                <li><a href="">Get 10% off your first order</a></li>
+                <li>
+                  <div class="footer__contact">
+                    <img src="../assets/Qrcode 1.png" alt="" />
+                    <div class="footer__contact-extra">
+                      <img
+                        src="../assets/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"
+                        alt=""
+                      />
+                      <img src="../assets/download-appstore.png" alt="" />
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <ul class="icons-container">
+                    <li>
+                      <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- End col items -->
+          </div>
+        </div>
+        <p class="footer__copyright">
+          @ Copyright Rimel 2022. All right reserved
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+https://picsum.photos/370/430
