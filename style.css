@@ -269,8 +269,15 @@
     position: relative;
     margin: 0 8px 0 12px;
 }
-.user__heart > i {
-    font-size: 20px;
+
+.user__heart > a {
+    text-decoration: none;
+}
+
+.user__heart > a > i {
+    display: block;
+    font-size: 22px;
+    color: var(--text-black);
 }
 
 .user__heart > span {
@@ -292,6 +299,9 @@
     display: inline-block;
     position: relative;
     margin: 0 8px;
+}
+.user__cart > a {
+    text-decoration: none;
 }
 
 .user__cart > a > i {

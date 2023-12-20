@@ -53,6 +53,7 @@ const flashSaleItems = [
 
 const listItems = document.getElementById("main__list");
 const itemInCart = document.querySelector(".user__cart > span");
+const itemInWishList = document.querySelector(".user__heart > span");
 
 function renderStarRating(star) {
   const maxStars = 5; // Số sao tối đa
@@ -81,7 +82,7 @@ function render(items) {
       <div class="products__img">
       <img src="${item.image}" alt="" />
       <span class="products__img-saleoff">-${item.sales}%</span>
-      <div class="products__body-care">
+      <div class="products__body-care" data-id=${item.id}>
         <i class="fa-regular fa-heart"></i>
       </div>
       <div class="products__body-show">
@@ -104,8 +105,10 @@ function render(items) {
 
 render(flashSaleItems);
 
+// Storage Cart
 const addToCart = document.querySelectorAll(".addToCart");
 const cartItems = JSON.parse(localStorage.getItem("flashSale")) || [];
+const wishItems = JSON.parse(localStorage.getItem("wishlist")) || [];
 itemInCart.innerHTML = cartItems.length || 0;
 
 addToCart.forEach((btn) => {
@@ -121,5 +124,25 @@ addToCart.forEach((btn) => {
     }
     localStorage.setItem("flashSale", JSON.stringify(cartItems));
     itemInCart.innerHTML = cartItems.length || 0;
+  });
+});
+
+// Storage Wishlist
+const wishListItem = document.querySelectorAll(".products__body-care");
+itemInWishList.innerHTML = wishItems.length || 0;
+
+wishListItem.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const productId = btn.getAttribute("data-id");
+    const product = flashSaleItems.find((item) => item.id === +productId);
+
+    const wishItem = wishItems.findIndex((item) => item.id === +productId);
+    if (wishItem !== -1) {
+      return;
+    } else {
+      wishItems.push(product);
+    }
+    localStorage.setItem("wishlist", JSON.stringify(wishItems));
+    itemInWishList.innerHTML = wishItems.length || 0;
   });
 });
