@@ -1,0 +1,124 @@
+{
+  "flashSaleItems": [
+    {
+      "id": 1,
+      "name": "HAVIT HV-G92 Gamepad",
+      "oldPrice": 160,
+      "newPrice": 120,
+      "image": "https://picsum.photos/190/180",
+      "stock": 88,
+      "sales": 40,
+      "star": 4
+    },
+    {
+      "id": 2,
+      "name": "AK-900 Wired Keyboard",
+      "oldPrice": 960,
+      "newPrice": 1160,
+      "image": "https://picsum.photos/190/180",
+      "stock": 75,
+      "sales": 35,
+      "star": 5
+    },
+    {
+      "id": 3,
+      "name": "IPS LCD Gaming Monitor",
+      "oldPrice": 370,
+      "newPrice": 400,
+      "image": "https://picsum.photos/190/180",
+      "stock": 99,
+      "sales": 25,
+      "star": 2
+    },
+    {
+      "id": 4,
+      "name": "S-Series Comfort Chair Premium",
+      "oldPrice": 375,
+      "newPrice": 400,
+      "image": "https://picsum.photos/190/180",
+      "stock": 102,
+      "sales": 30,
+      "star": 3
+    },
+    {
+      "id": 5,
+      "name": "S-Series Comfort Chair ",
+      "oldPrice": 130,
+      "newPrice": 90,
+      "image": "https://picsum.photos/190/180",
+      "stock": 64,
+      "sales": 25,
+      "star": 3
+    },
+    {
+      "id": 6,
+      "name": "S-Series Comfort Chair 2",
+      "oldPrice": 260,
+      "newPrice": 186,
+      "image": "https://picsum.photos/190/180",
+      "stock": 64,
+      "sales": 25,
+      "star": 5
+    },
+    {
+      "id": 7,
+      "name": "Product 7",
+      "oldPrice": 160,
+      "newPrice": 120,
+      "image": "https://picsum.photos/190/180",
+      "stock": 88,
+      "sales": 40,
+      "star": 4
+    },
+    {
+      "id": 8,
+      "name": "AK-900 Wired Keyboard Product 8",
+      "oldPrice": 960,
+      "newPrice": 1160,
+      "image": "https://picsum.photos/190/180",
+      "stock": 75,
+      "sales": 35,
+      "star": 5
+    },
+    {
+      "id": 9,
+      "name": "IPS LCD Gaming Monitor",
+      "oldPrice": 370,
+      "newPrice": 400,
+      "image": "https://picsum.photos/190/180",
+      "stock": 99,
+      "sales": 25,
+      "star": 2
+    },
+    {
+      "id": 4,
+      "name": "S-Series Comfort Chair ",
+      "oldPrice": 375,
+      "newPrice": 400,
+      "image": "https://picsum.photos/190/180",
+      "stock": 102,
+      "sales": 30,
+      "star": 3
+    },
+    {
+      "id": 5,
+      "name": "S-Series Comfort Chair ",
+      "oldPrice": 130,
+      "newPrice": 90,
+      "image": "https://picsum.photos/190/180",
+      "stock": 64,
+      "sales": 25,
+      "star": 3
+    },
+    {
+      "id": 6,
+      "name": "S-Series Comfort Chair 2",
+      "oldPrice": 260,
+      "newPrice": 186,
+      "image": "https://picsum.photos/190/180",
+      "stock": 64,
+      "sales": 25,
+      "star": 5
+    }
+  ]
+}

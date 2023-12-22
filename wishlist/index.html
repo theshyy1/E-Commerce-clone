@@ -65,14 +65,16 @@
               </div>
               <div class="header__navbar-icons">
                 <div class="user__heart">
-                  <i class="fa-solid fa-heart"></i>
-                  <span>4</span>
+                  <a href="./index.html">
+                    <i class="fa-solid fa-heart"></i>
+                  </a>
+                  <span></span>
                 </div>
                 <div class="user__cart">
                   <a href="../cart/index.html">
                     <i class="fa-solid fa-cart-shopping"></i>
                   </a>
-                  <span>2</span>
+                  <span></span>
                 </div>
                 <div class="user__dropdown">
                   <i class="fa-solid fa-user"></i>
@@ -118,13 +120,15 @@
             <div class="common__head">
               <div class="common__head-left">
                 <p>Wishlist</p>
-                <p>(4)</p>
+                <p class="wishListNumber"></p>
               </div>
-              <button class="btn-primary">Move All To Bag</button>
+              <button id="moveAllTobag" class="btn-primary">
+                Move All To Bag
+              </button>
             </div>
           </div>
           <div class="main__products-list">
-            <div class="main__products-item">
+            <!-- <div class="main__products-item">
               <div class="products__img">
                 <img src="https://picsum.photos/180/180" alt="" />
                 <span class="products__img-saleoff">-40%</span>
@@ -139,9 +143,9 @@
                 <h3>Gucci duffle bag</h3>
                 <p>$960 <span>$1160</span></p>
               </div>
-            </div>
+            </div> -->
             <!-- End a item -->
-            <div class="main__products-item">
+            <!-- <div class="main__products-item">
               <div class="products__img">
                 <img src="https://picsum.photos/180/180" alt="" />
                 <div class="products__body-care">
@@ -155,9 +159,9 @@
                 <h3>RGB liquid CPU Cooler</h3>
                 <p>$1960</p>
               </div>
-            </div>
+            </div> -->
             <!-- End a item -->
-            <div class="main__products-item">
+            <!-- <div class="main__products-item">
               <div class="products__img">
                 <img src="https://picsum.photos/180/180" alt="" />
                 <div class="products__body-care">
@@ -171,9 +175,9 @@
                 <h3>GP11 Shooter USB Gamepad</h3>
                 <p>$550</p>
               </div>
-            </div>
+            </div> -->
             <!-- End a item -->
-            <div class="main__products-item">
+            <!-- <div class="main__products-item">
               <div class="products__img">
                 <img src="https://picsum.photos/180/180" alt="" />
                 <div class="products__body-care">
@@ -187,7 +191,7 @@
                 <h3>Quilted Satin Jacket</h3>
                 <p>$750</p>
               </div>
-            </div>
+            </div> -->
             <!-- End a item -->
           </div>
         </div>
@@ -211,7 +215,7 @@
                 <div class="products__body-show products__body-show__wishlist">
                   <i class="fa-regular fa-eye"></i>
                 </div>
-                <span class="addToCart"
+                <span class="addToCart1"
                   ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</span
                 >
               </div>
@@ -366,13 +370,13 @@
                 <li><a href="">Get 10% off your first order</a></li>
                 <li>
                   <div class="footer__contact">
-                    <img src="./assets/Qrcode 1.png" alt="" />
+                    <img src="../assets/Qrcode 1.png" alt="" />
                     <div class="footer__contact-extra">
                       <img
-                        src="./assets/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"
+                        src="../assets/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"
                         alt=""
                       />
-                      <img src="./assets/download-appstore.png" alt="" />
+                      <img src="../assets/download-appstore.png" alt="" />
                     </div>
                   </div>
                 </li>
@@ -402,6 +406,6 @@
         </p>
       </footer>
     </div>
-    <script src="./wishlist.js"></script>
+    <script src="./wishlist.js" type="module"></script>
   </body>
 </html>

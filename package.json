@@ -1,0 +1,15 @@
+{
+  "name": "clone-web",
+  "version": "1.0.0",
+  "description": "Đây chỉ là mình clone lại giao diện của 1 app có sẵn thui hihi <3",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --w db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
